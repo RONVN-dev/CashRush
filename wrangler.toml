@@ -1,0 +1,10 @@
+name = "crazy-cash-rush"
+compatibility_date = "2026-05-30"
+pages_build_output_dir = "."
+
+# Replace database_id after running:
+# wrangler d1 create crazy-cash-rush-db
+[[d1_databases]]
+binding = "DB"
+database_name = "crazy-cash-rush-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
